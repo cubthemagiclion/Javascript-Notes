@@ -1,0 +1,24 @@
+# Javascript-Notes
+# Data Types and Variables
+
+
+
+**Escaping Strings**
+quotes*inside a string*
+In JavaScript, you use the backslash to **escape** other characters.
+*Escaping a character* tells JavaScript to ignore the character’s special meaning and just use the literal value of the character.
+Example: “The man whispered, \”please speak to me.\”” is correct
+		  “The man whispered, ”please speak to me.””  Creates a syntax error.
+
+## Special characters
+Quotes aren’t the only**special characters**that need to be escaped, there’s actually [quite a few] However, to keep it simple, here’s a list of some common special characters in JavaScript.
+
+code  character
+\\  	\ (backslash)
+\”  	’’ (double quote)
+\’	  ‘ (single quote)
+\n  	newline
+\t  	tab
+
+The last two characters listed in the table, newline\n and tab\t, are unique because they add additional **whitespace** to your Strings. A newline character will add a line break and a tab character will advance your line to the next tab stop
+
